@@ -1,0 +1,157 @@
+.parent {
+    width: 500px;
+    height: 500px;
+    margin: 150px auto;
+    position: relative;
+    animation: flower 10s linear 0s infinite ; 
+}
+@keyframes flower{
+    0%{
+      transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(359deg);
+    }
+}
+.parent>div {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.common {
+    width: 250px;
+    height: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+    opacity: 0.5;
+    transform-origin: right bottom;
+}
+.l1 {
+    background: orange;
+    transform: rotateZ(0deg);
+}
+.l2 {
+    background: blue;
+    transform: rotateZ(11.25deg);
+}
+.l3 {
+    background: purple;
+    transform: rotateZ(22.50deg);
+}
+.l4 {
+    background:BlueViolet;
+    transform: rotateZ(33.75deg);
+}
+
+.l5 {
+    background:Aquamarine;
+    transform: rotateZ(45deg);
+}
+.l6 {
+    background:Brown;
+    transform: rotateZ(56.25deg);
+}
+.l7 {
+    background:Chocolate;
+    transform: rotateZ(67.5deg);
+}
+.l8 {
+    background:DarkCyan;
+    transform: rotateZ(78.25deg);
+}
+.l9 {
+    background:DarkGoldenRod;
+    transform: rotateZ(90deg);
+}
+.l10 {
+    background:DarkGreen;
+    transform: rotateZ(101.25deg);
+}
+.l11 {
+    background:DimGrey;
+    transform: rotateZ(112.5deg);
+}
+.l12 {
+    background:gold;
+    transform: rotateZ(123.75deg);
+}
+.l13 {
+    background:Fuchsia;
+    transform: rotateZ(135deg);
+}
+.l14 {
+    background:yellow;
+    transform: rotateZ(146.25deg);
+}
+.l15 {
+    background:Indigo;
+    transform: rotateZ(157.5deg);
+}
+.l16 {
+    background:LightCoral;
+    transform: rotateZ(168.75deg);
+}
+.l17 {
+    background:Maroon;
+    transform: rotateZ(180deg);
+}
+.l18 {
+    background:LightSalmon;
+    transform: rotateZ(191.25deg);
+}
+.l19 {
+    background:MediumSpringGreen;
+    transform: rotateZ(202.5deg);
+}
+.l20 {
+    background:MidnightBlue;
+    transform: rotateZ(213.75deg);
+}
+.l21 {
+    background:SeaGreen;
+    transform: rotateZ(225deg);
+}
+.l22 {
+    background:Teal;
+    transform: rotateZ(236.25deg);
+}
+.l23 {
+    background:YellowGreen;
+    transform: rotateZ(247.5deg);
+}
+.l24 {
+    background:MediumBlue;
+    transform: rotateZ(258.75deg);
+}
+.l25 {
+    background:MediumOrchid;
+    transform: rotateZ(270deg);
+}
+.l26 {
+    background:Lime;
+    transform: rotateZ(281.25deg);
+}
+.l27 {
+    background:HotPink;
+    transform: rotateZ(292.5deg);
+}
+.l28 {
+    background:FireBrick;
+    transform: rotateZ(303.75deg);
+}
+.l29 {
+    background:DodgerBlue;
+    transform: rotateZ(315deg);
+}
+.l30 {
+    background:DarkSlateGray;
+    transform: rotateZ(326.25deg);
+}
+.l31 {
+    background:Crimson;
+    transform: rotateZ(337.5deg);
+}
+.l32 {
+    background:DarkViolet;
+    transform: rotateZ(348.75deg);
+}
